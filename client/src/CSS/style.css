@@ -1,0 +1,138 @@
+.body{
+    background-color: #263238;
+    padding: 40px;
+    /* height: 100vh;
+    width: 100%; */
+    background: url(image/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .mybank{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: teal;
+    padding: 6px 0px 6px 0px;
+} */
+
+/* #homeform{
+    width: 380px;
+    margin: auto;
+    padding: 32px;
+} */
+/* .pad{
+    padding: 4px 0px 4px 0px;
+    background-color: aquamarine;
+    margin-bottom: 0;
+}
+.loginTitle
+{
+    text-align: center;
+    color: #17a2b8;
+    padding-top: 10px;
+}
+
+.loginTitle span
+{
+    color: #154d57;
+}  */
+.pad {
+    background: #263238; /* Deep Blue-Gray */
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 90px auto 90px auto;
+}
+
+.loginTitle {
+    color: #80cbc4; /* Soft Teal */
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.loginTitle span {
+    color: #4db6ac; /* Medium Teal */
+}
+
+#homeform {
+    text-align: left;
+}
+
+.mb-3 label {
+    color: #e0f2f1; /* Light Cyan */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.mb-3 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+.text-muted {
+    color: #b0bec5; /* Soft Gray */
+}
+.custom-button {
+    background-color: #00796b;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #004d40; /* Darker Teal on Hover */
+}
+
+.linkk {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e0f2f1; /* Light Cyan */
+    text-align: center;
+}
+
+.linkk a {
+    color: #80cbc4; /* Soft Teal */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.linkk a:hover {
+    color: #4db6ac; /* Medium Teal */
+    text-decoration: underline;
+}
+
+
+/* Link Styling */
+a {
+    color: #80cbc4;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pad {
+        width: 90%;
+    }
+}
+

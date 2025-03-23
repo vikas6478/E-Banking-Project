@@ -1,0 +1,82 @@
+.totalbalance {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4db6ac; /* Soft Teal */
+    margin-bottom: 20px;
+}
+
+.statement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    background: #263238; /* Deep Blue-Gray */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    overflow-x: auto;
+}
+
+.statement-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.statement-table thead {
+    background: #00796b; /* Dark Teal */
+    color: white;
+    font-size: 18px;
+}
+
+.statement-table th, .statement-table td {
+    padding: 12px 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.statement-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.statement-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.statement-table td {
+    color: #e0f2f1; /* Light Cyan */
+    font-size: 16px;
+}
+
+.statement-table td:first-child {
+    font-weight: bold;
+}
+
+.statement-table td[style*="color:red"] {
+    font-weight: bold;
+    color: #f44336 !important; /* Bright Red for Debit */
+}
+
+.statement-table td[style*="color:green"] {
+    font-weight: bold;
+    color: #4caf50 !important; /* Bright Green for Credit */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .statement-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .totalbalance {
+        font-size: 24px;
+    }
+
+    .statement-table th, .statement-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,79 @@
+.footer {
+    background: #1b2527; /* Dark Navy */
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Logo Centered */
+.footer-logo-section {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 90px; /* Chhoti si image upar */
+    height: auto;
+}
+
+/* 4-Column Layout */
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1100px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 23%; /* 4 equal columns */
+    min-width: 200px;
+    text-align: left;
+}
+
+/* Title Colors */
+.footer-column h3 {
+    color: #80cbc4; /* Soft teal */
+    margin-bottom: 10px;
+}
+
+/* Info Colors */
+.footer-column p {
+    color: #b0bec5; /* Light Gray */
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #90a4ae;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .footer-logo {
+        width: 70px;
+    }
+}

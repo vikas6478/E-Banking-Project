@@ -1,0 +1,132 @@
+.withdrawmoney-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 90px auto 0 auto;
+    border-radius: 20px;
+    /* background-color: #1e2d2f; Dark Teal Shade */
+    gap: 50px; /* Space between form & image */
+}
+
+.withdrawmoney-card {
+    background: #263238; /* Deep Blue-Gray */
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.withdrawmoney-head {
+    color: #80cbc4; /* Soft Teal */
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.withdrawmoney-label {
+    color: #e0f2f1; /* Light Cyan */
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.currency-symbol {
+    color: #4db6ac; /* Medium Teal */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.withdrawmoney-button {
+    background: #00796b; /* Dark Teal */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.withdrawmoney-button:hover {
+    background: #004d40; /* Even Darker Teal */
+}
+
+.money-animation img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+.withdrawmoney-container div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.withdrawmoney-container img {
+    width: 350px; /* Bigger Size */
+    height: auto;
+    object-fit: contain;
+}
+/* ✅ RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .withdrawmoney-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .withdrawmoney-card {
+        width: 90%; /* Take full width on small screens */
+    }
+
+    .withdrawmoney-container img {
+        width: 80%; /* Make image smaller */
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .withdrawmoney-head {
+        font-size: 22px;
+    }
+
+    .withdrawmoney-button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .withdrawmoney-container img {
+        width: 70%;
+    }
+}

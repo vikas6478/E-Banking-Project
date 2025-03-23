@@ -1,0 +1,71 @@
+.balancedisplay {
+    background: #263238; /* Deep Blue-Gray */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    margin: 90px auto 0 auto;
+}
+
+.netbalance{
+    color: rgb(216, 247, 236);
+    font-size: 25px;
+}
+
+.balancedisplay h1 {
+    color: #80cbc4; /* Soft Teal */
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.balancedisplay h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.balancedisplay h2.positive {
+    color: #4caf50; /* Green for positive balance */
+}
+
+.balancedisplay h2.negative {
+    color: #f44336; /* Red for negative balance */
+}
+
+/* ✅ RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .balancedisplay {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .balancedisplay h1 {
+        font-size: 22px;
+    }
+
+    .balancedisplay h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .balancedisplay {
+        width: 95%;
+        padding: 12px;
+    }
+
+    .balancedisplay h1 {
+        font-size: 20px;
+    }
+
+    .balancedisplay h2 {
+        font-size: 18px;
+    }
+
+    .netbalance {
+        font-size: 22px;
+    }
+}

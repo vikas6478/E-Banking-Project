@@ -1,0 +1,66 @@
+#bank-img {
+    height: 100vh;
+    width: 100%;
+    background: url(image/bank-image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Hero Section */
+.hero-section {
+  background-color: teal !important;
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Features Section */
+.features-section {
+  margin: 50px 0;
+}
+
+.feature-card {
+  border: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card .card-title {
+  color: #00796b; /* Dark Teal */
+  font-weight: bold;
+}
+
+.feature-card .btn-primary {
+  background-color: #00796b;
+  border: none;
+}
+
+.feature-card .btn-primary:hover {
+  background-color: #004d40; /* Darker teal */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+      font-size: 30px;
+  }
+
+  .hero-section p {
+      font-size: 16px;
+  }
+}

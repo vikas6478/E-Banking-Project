@@ -1,0 +1,65 @@
+.pass-reset {
+    background: #263238; /* Deep Blue-Gray */
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 90px auto 0 auto;
+}
+
+.resetpass-head {
+    color: #80cbc4; /* Soft Teal */
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.pass-reset h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pass-reset input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    margin-top: 5px;
+}
+
+.pass-reset input::placeholder {
+    color: #b0bec5;
+}
+
+button {
+    background: #00796b; /* Dark Teal */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #004d40; /* Even Darker Teal */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pass-reset {
+        width: 90%;
+    }
+}
