@@ -64,3 +64,22 @@
       font-size: 16px;
   }
 }
+@media (max-width: 1024px) {
+  #bank-img {
+      height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #bank-img {
+      height: 42vh;
+      background-size: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  #bank-img {
+      height: 25vh;
+      background-size: cover;
+  }
+}
