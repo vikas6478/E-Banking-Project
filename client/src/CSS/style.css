@@ -3,7 +3,7 @@
     padding: 40px;
     /* height: 100vh;
     width: 100%; */
-    background: url(image/background-img.jpg);
+    background: url("/public/image/background-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
